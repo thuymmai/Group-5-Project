@@ -23,5 +23,8 @@
     <ClInclude Include="LogIn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

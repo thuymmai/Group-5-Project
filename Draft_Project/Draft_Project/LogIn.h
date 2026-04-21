@@ -24,14 +24,26 @@ public:
 	}
 
 	//define setter
-	void getUsername(string u) {
+	void setUsername(string u) {
 		username = u;
 	}
 
-	void getPassword(string p) {
+	void setPassword(string p) {
 		password = p;
 	}
 
+	string getUsername() const {
+		return username;
+	}
+
+	string getPassword() const {
+		return password;
+	}
+
+	// Authentication method
+	bool authenticate(string inputUsername, string inputPassword) const {
+		return (username == inputUsername && password == inputPassword);
+	}
 
 };
 
