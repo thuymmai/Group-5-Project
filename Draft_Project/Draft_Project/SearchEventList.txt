@@ -1,2 +1,81 @@
-Search Event List
+Search Event List	
+		
+1.
+Location: Tampa, FL
+Dates: Sunday, April 26, 2026, 8:00 PM
+Artist, Event, or Venue: BTS, BTS WORLD TOUR 'ARIRANG' IN TAMPA, Raymond James Stadium
 
+2.
+Location: Landover, MD
+Dates: Saturday, May 2, 2026
+Artist, Event, or Venue: Bruno Mars, Bruno Mars - The Romantic Tour, Northwest Stadium
+
+3.
+Location: Houston, TX
+Dates: Saturday, May 9, 2026, 7:00 PM
+Artist, Event, or Venue: Yung Kai, yung kai: stay with the ocean, i'll find you, the tour, The Bronze Peacock at House of Blues
+
+4.
+Location: Houston, TX
+Dates: Sunday, June 14, 2026, 12:00 PM
+Artist, Event, or Venue: World Cup: Match 10 Group E - Germany vs Curacao, NRG Stadium
+
+5.
+Location: Houston, TX
+Dates: Tuesday, June 23, 2026, 12:00 PM
+Artist, Event, or Venue: World Cup: Match 47 Group K - Portugal vs Uzbekistan, NRG Stadium
+
+6.
+Location: New York, NY
+Dates: Wednesday, June 3, 2026, 7:00 PM
+Artist, Event, or Venue: Hamilton, Richard Rodgers Theatre
+
+7.
+Location: Inglewood, CA
+Dates: Sunday, May 10, 2026
+Artist, Event, or Venue: Kevin Hart, Netflix Is A Joke Presents: The Roast Of Kevin Hart, Kia Forum
+
+8. 
+Location: Sugar Land, TX
+Dates: Sunday, July 19, 2026
+Artist, Event, or Venue: The Australian Pink Floyd Show: The Happiest Days Of Our Lives - Great
+
+9.
+Location: Houston, TX
+Dates: Thursday, May 14, 2026
+Artist, Event, or Venue: Don Toliver, NOTO
+
+10.
+Location: Houston, TX
+Dates: October 17, 2026
+Artist, Event, or Venue: Sombr, Toyota Center
+
+11.
+Location: Houston, TX
+Dates: May 4, 2026, 7:10 PM
+Artist, Event, or Venue: Dodgers @ Astros, Daikin Park
+
+12.
+Location: Houston, TX
+Dates: Monday, May 11, 2026, 7:10 PM
+Artist, Event, or Venue: Mariners @ Astros
+
+13.
+Location: Houston, TX
+Dates: Saturday, May 16, 2026, 7:00 PM
+Artist, Event, or Venue: Bobby Lee, 713 Music Hall
+
+14.
+Location: Binghamton, NY
+Dates: Wednesday, November 4, 2026
+Artist, Event, or Venue: Nutcracker! Magical Christmas Ballet, Broome County Forum Theatre
+
+15.
+Location: Houston, TX
+Dates: Friday, May 1, 2026, 12:00 PM
+Artist, Event, or Venue: NBA, Lakers @ Rockets, Toyota Center
+
+16.
+Location: The Woodlands, TX
+Dates: Friday, May 22, 2026, 8:00 PM
+Artist, Event, or Venue: Pitbull with Lil Jon, The Cynthia Woods Mitchell Pavilion
