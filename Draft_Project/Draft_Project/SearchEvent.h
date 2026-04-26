@@ -10,6 +10,7 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
+#include "Draft_Source.cpp"
 using namespace std;
 
 //Note: a vector with a struct for artist, location, and date of event
@@ -19,17 +20,25 @@ using namespace std;
 class SearchEvent {
 
 public:
-	struct Event {
-		string artistName;
-		string venue;
-		string location;
-		string date;	//YYYY-MM-DD
-	};
 
-	SearchEvent();
+	//Event SearchEvents();
 
-	//search events by artist name
-	vector<Event> artistName;
+	SearchEvent() {
+
+	}
+
+	//search events by 
+	vector<Event> events;
+
+	
+	Event searchEvents(string anEvent) {
+		for (int i = 0; i < events.size(); i++) {
+			if (events.at(i).artistName == anEvent) {
+				return events.at(i);
+			}
+		}
+	}
+
 
 
 
