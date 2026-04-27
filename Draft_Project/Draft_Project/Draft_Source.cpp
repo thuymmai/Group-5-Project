@@ -1,5 +1,6 @@
 //Ticket Hub
 //Thuy
+#pragma once
 
 #include <iostream>
 #include <sstream>
@@ -12,22 +13,26 @@
 #include "SearchEvent.h"
 using namespace std;
 
-struct Event {
-	string artistName;
-	string venue;
-	string location;
-	string date;	//YYYY-MM-DD
-};
+//struct Event {
+//	string artistName;
+//	string venue;
+//	string location;
+//	string date;	//YYYY-MM-DD
+//};
 
 int main() {
+
+	string input;
 
 	cout << "------------------------\n";
 	cout << "      Ticket Hub        \n";
 	cout << "------------------------\n";
 	cout << endl;
-	cout << "Welcome to Ticket Hub!";
+	cout << "Welcome to Ticket Hub!\n";
+	cout << "\nEnter location, date, artist, event, or venue: ";
+	cin >> input;
 
-	SearchEvent anEvent = new SearchEvent();
+	SearchEvent* anEvent = new SearchEvent();
 
 	//read from a text file
 	ifstream searchEventFile("SearchEventList.txt");
@@ -44,19 +49,25 @@ int main() {
 			//object named Event
 			Event someEvent;
 			someEvent.artistName = words.at(0);
-			someEvent.venue = words.at(1);
-			someEvent.location = words.at(2);
-			someEvent.date = words.at(3);
-			cout << words.at(3) << endl;
+			cout << words.at(0) << endl;
 
-			anEvent.events.push_back(someEvent);
+			//someEvent.venue = words.at(1);
+			//cout << words.at(1) << endl;
+
+			//someEvent.location = words.at(2);
+			//cout << words.at(2) << endl;
+
+			//someEvent.date = words.at(3);
+			//cout << words.at(3) << endl;
+
+			anEvent->events.push_back(someEvent);
 		}
 	}
 
 	searchEventFile.close();
 
 
-
+	
 	return 0;
 }
 

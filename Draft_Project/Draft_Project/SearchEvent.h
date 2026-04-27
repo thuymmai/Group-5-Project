@@ -10,12 +10,14 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
-#include "Draft_Source.cpp"
 using namespace std;
 
-//Note: a vector with a struct for artist, location, and date of event
-//use a text file that is loaded into a vector
-//use getline
+struct Event {
+	string artistName;
+	string venue;
+	string location;
+	string date;	//YYYY-MM-DD
+};
 
 class SearchEvent {
 
