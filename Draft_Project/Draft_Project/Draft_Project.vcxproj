@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Draft_Source.cpp" />
+    <ClCompile Include="MainSource.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LogIn.h" />
