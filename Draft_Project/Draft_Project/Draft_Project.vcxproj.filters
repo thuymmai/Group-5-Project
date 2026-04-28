@@ -29,5 +29,8 @@
     <ClInclude Include="SearchEvent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TestingSearchEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

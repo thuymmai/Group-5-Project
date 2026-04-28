@@ -23,14 +23,26 @@ class SearchEvent {
 
 public:
 
-	//Event SearchEvents();
-
 	SearchEvent() {
 
 	}
 
 	//search events by 
 	vector<Event> events;
+
+	//return events where query matches any field
+	vector<Event> searchEvents(string query) {
+		vector<Event> results;
+
+		string lowerCaseQuery = query;
+		transform(lowerCaseQuery.begin(), lowerCaseQuery.end(), lowerCaseQuery.begin(), ::tolower);
+
+		for (int i = 0; i < events.size(); i++) {
+			string words[] = {
+				events.at(i).artistName, events.at(i).venue, events.at(i).date, events.at(i).location
+			};
+		}
+	}
 
 	
 	Event searchEvents(string anEvent) {
