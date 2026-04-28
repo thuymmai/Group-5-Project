@@ -25,6 +25,7 @@ class SearchEvent {
 
 public:
 
+	//constructor
 	SearchEvent() {
 	
 	}
@@ -48,6 +49,7 @@ public:
 			};
 
 			for (string field : words) {
+				//ensure comparison is NOT case sensitive
 				string lowerField = field;
 				transform(lowerField.begin(), lowerField.end(), lowerField.begin(), ::tolower);
 
