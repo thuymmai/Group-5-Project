@@ -126,6 +126,7 @@
     <ClCompile Include="MainSource.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccountRegister.h" />
     <ClInclude Include="LogIn.h" />
     <ClInclude Include="Register.h" />
     <ClInclude Include="SearchEvent.h" />

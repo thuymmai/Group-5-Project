@@ -14,9 +14,10 @@ using namespace std;
 
 struct Event {
 	string artistName;
+	string eventName;
 	string venue;
+	string date;
 	string location;
-	string date;	//YYYY-MM-DD
 };
 
 class SearchEvent {
@@ -38,14 +39,21 @@ public:
 		transform(lowerCaseQuery.begin(), lowerCaseQuery.end(), lowerCaseQuery.begin(), ::tolower);
 
 		for (int i = 0; i < events.size(); i++) {
-			string words[] = {
-				events.at(i).artistName, events.at(i).venue, events.at(i).date, events.at(i).location
+
+			// Put all fields into an array so they can be checked in one loop
+			string fields[] = {
+				events.at(i).artistName,
+				events.at(i).eventName,
+				events.at(i).venue,
+				events.at(i).date,
+				events.at(i).location
 			};
+
 		}
 	}
 
 	
-	Event searchEvents(string anEvent) {
+	Event searchEvent(string anEvent) {
 		for (int i = 0; i < events.size(); i++) {
 			if (events.at(i).artistName == anEvent) {
 				return events.at(i);
